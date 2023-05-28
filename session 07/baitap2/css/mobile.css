@@ -1,0 +1,113 @@
+@media screen and (max-width: 376px) {
+  .container {
+    width: 375px;
+    background-color: #393d49;
+  }
+  header {
+    width: 290px;
+    height: 40px;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .header-logo p {
+    font-size: 12px;
+  }
+
+  .nav-menu button {
+    width: 50px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 10px;
+  }
+  main,
+  footer {
+    width: 290px;
+    margin: 0 auto;
+  }
+  section {
+    height: 470px;
+  }
+  section img {
+    width: 150px;
+    height: 170px;
+  }
+  section h1 {
+    font-size: 30px;
+    text-align: center;
+  }
+  section p {
+    font-size: 16px;
+    width: 200px;
+    text-align: center;
+  }
+  .portfolio h2,
+  .contact h2,
+  .about h2 {
+    font-size: 27px;
+  }
+  .portfolio {
+    height: 1500px;
+    background-color: #fff;
+  }
+  .portfolio img {
+    width: 240px;
+    height: 180px;
+  }
+  .about {
+    height: 500px;
+    gap: 20px;
+  }
+  .about .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .about .text p {
+    width: 254px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .about button {
+    width: 150px;
+    height: 40px;
+  }
+  .line span:nth-child(1),
+  .line span:nth-child(3) {
+    width: 75px;
+    height: 3px;
+    margin-bottom: 3px;
+  }
+  .line i {
+    font-size: 20px;
+  }
+  .contact {
+    height: 570px;
+    background-color: #fff;
+    gap: 20px;
+  }
+  form {
+    width: 250px;
+    height: 400px;
+    color: #b5b3b3;
+  }
+  footer {
+    height: 495px;
+  }
+  .footer-info {
+    height: 400px;
+  }
+  .footer-info h3 {
+    font-size: 20px;
+  }
+  .footer-info .fa-brands {
+    font-size: 30px;
+  }
+  .footer-info div:nth-child(1) {
+    width: 200px;
+    font-size: 16px;
+  }
+  .footer-info div:nth-child(3) {
+    width: 260px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,210 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 0 auto;
+  width: 1366px;
+}
+/* header */
+header {
+  height: 100px;
+  background-color: darkslategrey;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.header-logo p {
+  font-size: 30px;
+}
+.nav-menu button {
+  display: none;
+  background-color: #45be96;
+  width: 85px;
+  height: 40px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: #fff;
+  margin-right: 40px;
+}
+/* main */
+section {
+  height: 678px;
+  background-color: rgb(39, 193, 142);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.line span:nth-child(1),
+.line span:nth-child(3) {
+  display: inline-block;
+  width: 80px;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 4px;
+}
+.line i {
+  margin: 0 10px;
+}
+section img {
+  width: 230px;
+  height: 240px;
+}
+section h1 {
+  font-size: 50px;
+}
+section p {
+  font-size: 20px;
+}
+.portfolio {
+  height: 854px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #060659;
+}
+.portfolio h2,
+.contact h2 {
+  font-size: 30px;
+}
+.portfolio .images {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 0 auto;
+}
+
+.portfolio img {
+  width: 330px;
+  height: 236px;
+  border-radius: 20px;
+}
+.portfolio .line span:nth-child(1),
+.portfolio .line span:nth-child(3),
+.contact .line span:nth-child(1),
+.contact .line span:nth-child(3) {
+  background-color: #060659;
+}
+
+/* about */
+.about {
+  height: 600px;
+  background-color: #45be96;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.about h2 {
+  color: #fff;
+  font-size: 30px;
+}
+.about .text {
+  display: flex;
+  gap: 30px;
+}
+.about .text p {
+  width: 350px;
+}
+.about button {
+  color: #fff;
+  background-color: transparent;
+  text-align: center;
+  width: 240px;
+  height: 60px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+}
+
+/* contact */
+.contact {
+  height: 970px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+form {
+  width: 600px;
+  height: 400px;
+  color: #b5b3b3;
+}
+form input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #b5b3b3;
+  margin-bottom: 20px;
+}
+input:focus {
+  outline: 0;
+}
+form textarea {
+  border: none;
+  border-bottom: 1px solid #b5b3b3;
+  width: 100%;
+}
+form input[type="submit"] {
+  width: 100px;
+  height: 50px;
+  background-color: #45be96;
+  border-radius: 10px;
+  margin-top: 10px;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  height: 370px;
+  color: #fff;
+}
+.footer-info {
+  background-color: lightslategray;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer-info div:nth-child(1) {
+  text-align: center;
+  width: 220px;
+}
+
+.footer-info div:nth-child(3) {
+  text-align: center;
+  width: 300px;
+}
+.footer-info h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.footer-info .fa-brands {
+  font-size: 30px;
+  margin: 0 10px;
+}
+.footer-info b {
+  color: #45be96;
+}
+.footer-copy {
+  background-color: dimgray;
+  height: 70px;
+  text-align: center;
+  line-height: 70px;
+}
